@@ -1,70 +1,87 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
+
+<head>
+  <title>CSS3_B&W</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
 <body>
-<body style="background-color:antiquewhite;">
-<h2 style="color:rosybrown;">Hello! My name is Katherine :) </h2>
-<br>
-<h3>Find a list of my data science work down here.</h3> 
-<br>
-<p>
-<a href="01HarryPotter.html">1. Harry Potter - An Analysis on the Moods</a>
-<br>
-<i>This is a fun unstructured data analytics project that is based on a data set including all text for the series of Harry Potter book. Questions to answer include, but are not limited to: Does the sentiment analysis on single words tell the true story? How does sentiment change as readers (in this case, RStudio and certain lexicon packages) progress through the chapters in each book? If the sentiment is analyzed on a bigram basis, how does the overall result change? What about analyzing on a sentence basis? How does text analytics vary among different lexicons? At the end of the project, it also includes a section of image/objection detection that examines on some famous movie scenes from Harry Potter.</i>
-<br>
-</p>
-<p>
-<a href="02ManhattanProperty.html">2. Manhattan Property</a>
-<br>
-<i>This project is based on a mega data set of properties in Manhattan. It begins with the cleaning and processing of the data set of a relatively massive volume, and continues on with regression analysis, visualization, and correlation analysis.</i>
-<br>
-</p>
-<p>
-<a href="03WWEEarningsCall.html">3. WWE Earnings Call</a>
-<br>
-<i>This project starts with text analytics, investigating on topics of term frequency and sentiment with regard to the text that appears in the call transcripts. Further, as the stock price would be the major indicator of a public company’s performance from a financial period, the aforementioned text analytics results would be incorporated with the fluctuation of stock prices overtime.</i>
-<br>
-</p>
-<p>
-<a href="04EffectiveLeader.html">4. Effective Leader</a>
-<br>
-<i>This short project conducts regression analysis on a data set of factors that would possibly impact how effective a leader could be. Relevant regression diagnosis procedures are also included with responsive sampling solutions such as bootstrapping.</i>
-<br>
-</p>
-<p>
-<a href="05Glassdoor.html">5. Glassdoor</a>
-<br>
-<i>This project is based on a dataset from Glass Door. It is built for various purposes: (1) Exploration about the unigram term frequency, tf-idf, and bigram presence of the text in pro reviews, con reviews, and advice. (2) What rating type has an outstanding pattern other than the rest and is worthy of further inspection? (3) How does the sentiment scores shown in pro reviews, con reviews, and advice affect the rating of interest? (4) Topic modeling for pro reviews, con reviews, and advice. (5) For the topics modeled, how does rating impact the mapping of such topics?</i>
-<br>
-</p>
-<p>
-<a href="06GooglePlayAppStore.html">6. Google Play App Store</a>
-<br>
-<i>Google Play App Store Analysis: There are many factors that affect the reviews and ratings of the applications available in Google's Play App Store market. To name a few: the genre, the download size, the content rating, the frequency of updates, the pricing, and etc. These could be individual contributors to the matter. Or, they could impact the final ratings and reviews in an interactive manner. This project aims to investigate on this issue by conducting regression analysis on the data such as the ANOVA test and the t-test. Given the techniques applied, certain limitations are presented; further insights are subsequently derived.</i>
-<br>
-</p>
-<p>
-<a href="07Wine.html">7. Wine</a>
-<br>
-<i>This short project creates several visualization utilizing a data set about worldwide wine information.</i>
-<br>
-</p>
-<p>
-<a href="08ML-Clustering.html">8. Machine Learning - Clustering</a>
-<br>
-<i>A customer segmentation for a local mall.</i>
-<br>
-</p>
-<p>
-<a href="09ML-DecisionTreeandLogistic.html">9. Machine Learning - Decision Tree, Logistic</a>
-<br>
-<i>A short study on types of mushroom leveraging the techniques including decision tree and logistic modeling.</i>
-<br>
-</p>
-<p>
-<a href="10Attrition.html">10. Attrition</a>
-<br>
-<i>This short project conducts exploratory and descriptive analysis on an in-built dataset: attrition.</i>
-<br>
-</p>
+  <div id="main">
+    <header>
+      <div id="logo"><h1>CSS3_<a href="#">B&amp;W</a></h1></div>
+      <nav>
+        <ul class="lavaLampWithImage" id="lava_menu">
+          <li><a href="index.html">home</a></li>
+          <li><a href="examples.html">examples</a></li>
+          <li><a href="page.html">a page</a></li>
+          <li class="current"><a href="another_page.html">another page</a></li>
+          <li><a href="contact.php">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+      <ul id="images">
+        <li><img src="images/1.jpg" width="600" height="300" alt="photo_one" /></li>
+        <li><img src="images/2.jpg" width="600" height="300" alt="photo_two" /></li>
+        <li><img src="images/3.jpg" width="600" height="300" alt="photo_three" /></li>
+        <li><img src="images/4.jpg" width="600" height="300" alt="photo_four" /></li>
+        <li><img src="images/5.jpg" width="600" height="300" alt="photo_five" /></li>
+        <li><img src="images/6.jpg" width="600" height="300" alt="photo_six" /></li>
+      </ul>
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <h3>Latest News</h3>
+          <h4>New Website Launched</h4>
+          <h5>January 1st, 2012</h5>
+          <p>2012 sees the redesign of our website. Take a look around and let us know what you think.<br /><a href="#">Read more</a></p>
+        </div>
+        <div class="sidebar">
+          <h3>Useful Links</h3>
+          <ul>
+            <li><a href="#">First Link</a></li>
+            <li><a href="#">Another Link</a></li>
+            <li><a href="#">And Another</a></li>
+            <li><a href="#">Last One</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="content">
+        <h1>Another Page</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.</p>
+      </div>
+    </div>
+    <footer>
+      <p><a href="index.html">home</a> | <a href="about.html">about me</a> | <a href="portfolio.html">my portfolio</a> | <a href="blog.html">blog</a> | <a href="contact.php">contact</a></p>
+      <p>&copy; 2012 CSS3_B&W. All Rights Reserved. | <a href="http://www.css3templates.co.uk">design from css3templates.co.uk</a></p>
+    </footer>
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+  <script type="text/javascript" src="js/jquery.kwicks-1.5.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#images').kwicks({
+        max : 600,
+        spacing : 2
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    $(function() {
+      $("#lava_menu").lavaLamp({
+        fx: "backout",
+        speed: 700
+      });
+    });
+  </script>
 </body>
 </html>
